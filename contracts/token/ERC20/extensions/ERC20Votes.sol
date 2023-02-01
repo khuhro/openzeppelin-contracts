@@ -22,7 +22,7 @@ import "../../../utils/cryptography/ECDSA.sol";
  * By default, token balance does not account for voting power. This makes transfers cheaper. The downside is that it
  * requires users to delegate to themselves in order to activate checkpoints and have their voting power tracked.
  *
- * _Available since v4.2._
+ * _Available since v4.2._ mychange
  */
 abstract contract ERC20Votes is IVotes, ERC20Permit {
     struct Checkpoint {
